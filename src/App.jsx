@@ -15,7 +15,7 @@ function App() {
   const [noData, setNoData] = useState('No data yet');
   const [searchTerm, setSearchTerm] = useState('');
   const [weatherData, setWeatherData] = useState([]);
-  const [city, setCity] = useState('Ubicacion desconcida');
+  const [city, setCity] = useState('Location unknown');
   const [weatherIcon, setWeatherIcon] = useState(`${REACT_APP_ICON_URL}10n@2x.png`);
 
   const handleChange = input => {
@@ -56,7 +56,7 @@ function App() {
 
   return (
     <div className=" flex items-center justify-center w-screen h-screen py-10">
-      <div className="flex w-4/5 min-h-full rounded-3xl shadow-lg m-auto bg-gray-100">
+      <div className="flex w-4/5 min-h-full rounded-3xl shadow-lg m-auto bg-gray-200">
           {/* form card section  */}
         <div className="form-container">
           <div className="flex items-center justify-center">
