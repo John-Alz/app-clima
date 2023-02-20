@@ -7,8 +7,8 @@ import SummaryCard from './Components/SummaryCard';
 function App() {
 
  const REACT_APP_API_KEY = '382761ed6e22af4af56f4b2d3136f120';
- const REACT_APP_URL = 'http://api.openweathermap.org/data/2.5/forecast?'
- const REACT_APP_ICON_URL = 'http://openweathermap.org/img/wn/'
+ const REACT_APP_URL = 'https://api.openweathermap.org/data/2.5/forecast?'
+ const REACT_APP_ICON_URL = 'https://openweathermap.org/img/wn/'
 
   // const API_KEY = process.env.REACT_APP_API_KEY;
 
